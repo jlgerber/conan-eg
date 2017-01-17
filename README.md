@@ -1,5 +1,7 @@
-# example usage of conan
-this setup makes use of spdlog boost and catch.
+# example usage of [conan](https://www.conan.io)
+Of course, right off the bat, I assume that conan is installed. I think that i used brew on the mac...
+
+This setup makes use of spdlog boost and catch.
 It generates a static lib and two executables - all trivial. It is meant to illustrate / work through using conan to manage c++ packages.
 
 usage
