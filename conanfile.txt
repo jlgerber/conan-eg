@@ -1,0 +1,11 @@
+[requires]
+spdlog/0.10.0@memsharded/stable
+Boost/1.63.0@eliaskousk/stable
+catch/1.5.9@sourcedelica/testing
+#catch/1.6.0/jlgerber/testing
+
+[options]
+Boost:shared=False
+
+[generators]
+cmake

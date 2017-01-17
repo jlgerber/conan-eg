@@ -1,0 +1,4 @@
+cmake-build-*
+tmp
+build
+.idea
