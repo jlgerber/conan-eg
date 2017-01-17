@@ -5,12 +5,15 @@ This setup makes use of spdlog boost and catch.
 It generates a static lib and two executables - all trivial. It is meant to illustrate / work through using conan to manage c++ packages.
 
 usage
+### Install Conan
+follow directions
+
 
 ### Set up conan
 
 ```
 mkdir conan && cd conan
-conan install .. 
+conan install .. --build=missing
 ```
 
 ### extend CMakeLists.txt file
@@ -35,7 +38,7 @@ I use CLion, so I build from the ui. However, you could do this:
 
 ```
 mkdir build && cd build
-cmake ..
+cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug
 cmake --build .
 ```
 
